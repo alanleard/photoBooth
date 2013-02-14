@@ -1,0 +1,9 @@
+<Alloy>
+	<Window class="container" onTouchend="selectImage" onLongpress="deleteImages">
+		<CoverFlowView id='imageScroll'/>
+		<View id="loadingView" backgroundColor="#5f3a18" visible="false" opacity="0.9">
+			<ActivityIndicator id="loadingLabel"/>
+		</View>
+			
+	</Window>
+</Alloy>

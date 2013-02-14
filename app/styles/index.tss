@@ -1,0 +1,19 @@
+".container": {
+	backgroundColor:"white"
+},
+"#loadingLabel": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	message:"Loading Photo...",
+	color:"#ffffff",
+	font:{fontSize:30},
+	style:Ti.UI.iPhone.ActivityIndicatorStyle.BIG
+},
+"#imageScroll":{
+	right:60,
+	bottom:50,
+	left:70,
+	height:400,
+	contentHeight:'auto',
+	contentWidth:'auto'
+}
